@@ -6,7 +6,7 @@ import { SocialIcon } from "react-social-icons";
 
 function ContactForm() {
   const [regarding, setRegarding] = useState("");
-
+  const [confirmation, setConfirmation] = useState();
   const {
     register,
     handleSubmit,
