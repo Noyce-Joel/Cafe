@@ -5,7 +5,7 @@ function Map() {
     <>
       <iframe
         style={{
-          width: "89.5vw",
+          
           height: "56vh",
           borderRadius: "40px",
           display: "flex",
