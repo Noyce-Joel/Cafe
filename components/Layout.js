@@ -45,7 +45,7 @@ function Layout({ children }) {
           <Title />
           <Nav />
           <motion.main>{children}</motion.main>
-          <Phone />
+          
           <Footer />
         </motion.div>
       </motion.div>
