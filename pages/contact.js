@@ -8,7 +8,7 @@ function contact() {
   return (
     <>
       <Map />
-      <ContactForm />
+      
     </>
   );
 }
