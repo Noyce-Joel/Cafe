@@ -552,7 +552,7 @@ button {
 .usp-blue-image-text {
   display: flex;
   position: absolute;
-  bottom: 25vh;
+  bottom: 17vh;
   right: 9vw;
   width: 35vw;
   font-size: calc(27px);
@@ -1117,9 +1117,7 @@ button {
     font-size: calc(14px);
   }
 
-  .about-wrap {
-    width: 80vw;
-  }
+  
 
   .heading {
     font-size: calc(40px);
@@ -1151,7 +1149,7 @@ button {
   }
 
   .usp-text {
-    width: 65vw;
+    width: 30rem;
     font-size: calc(14px);
   }
 
@@ -1281,7 +1279,7 @@ button {
   .usp-orange-image-text {
     font-size: calc(15px);
     width: 50vw;
-    top: 40px;
+    top: 25px;
     line-height: 1.5rem;
     letter-spacing: 0.15rem;
   }
@@ -1289,8 +1287,8 @@ button {
     font-size: calc(15px);
     line-height: 1.5rem;
     width: 50vw;
-    right: 25px;
-    bottom: 35px;
+    right: 10px;
+    bottom: 25px;
     letter-spacing: 0.15rem;
   }
 
