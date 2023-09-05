@@ -972,10 +972,8 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   position: relative;
-  width: 35rem;
   padding-inline: 40px;
   padding-top: 44px;
-
   color: gray;
 }
 
@@ -984,7 +982,6 @@ button {
   flex-direction: column;
   border-bottom: solid;
   height: 3rem;
-  width: 14rem;
   margin-bottom: 1rem;
 }
 
@@ -1244,7 +1241,7 @@ button {
   }
 
   .contact-form-block{
-    width: 35rem
+   
   }
   
   
@@ -1441,19 +1438,14 @@ button {
   .basket-button {
     top: 17rem;
   }
-
-  .contact-form-block{
-    width: 90vw
-  }
   
   .contact-user-info{
     grid-template-columns: 1fr;
-    width: 90vw;
+    
   }
+  
 
-  .user-info-input{
-    width: auto
-  }
+  
 
   .book-event{
     top: 19rem
