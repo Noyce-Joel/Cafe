@@ -885,14 +885,19 @@ button {
   display: flex;
   margin-top: 7rem;
   padding: 20px;
-  justify-content: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
 }
 
 .contact-form {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
   position: relative;
-  
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
   border-radius: 40px;
   box-shadow: -15px 15px 25px rgba(128, 128, 128, 0.603);
@@ -1068,7 +1073,7 @@ button {
 }
 
 .message-button button{
-  width: 5.5rem;
+  padding: 10px;
   height: 3rem;
   border: solid;
   border-radius: 15px;
