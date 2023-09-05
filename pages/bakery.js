@@ -22,6 +22,7 @@ function Bakery() {
           borderRight: "solid",
           borderRadius: "90px",
           borderColor: "lightgray",
+          marginTop: '70px'
         }}
         className="about-wrap"
       >

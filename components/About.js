@@ -42,11 +42,7 @@ function About({ h1, h2, h3, p1, p2, p3, p4, image }) {
           height={800}
         />
       </motion.div>
-      <div className="about-wrap">
       
-        <p className="p3">{p3}</p>
-        <p className="p4">{p4}</p>
-      </div>
     </div>
   );
 }

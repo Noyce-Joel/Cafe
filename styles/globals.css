@@ -552,7 +552,7 @@ button {
 .usp-blue-image-text {
   display: flex;
   position: absolute;
-  bottom: 35vh;
+  bottom: 25vh;
   right: 9vw;
   width: 35vw;
   font-size: calc(27px);
@@ -1281,7 +1281,7 @@ button {
   .usp-orange-image-text {
     font-size: calc(15px);
     width: 50vw;
-    top: 25px;
+    top: 40px;
     line-height: 1.5rem;
     letter-spacing: 0.15rem;
   }
@@ -1289,8 +1289,8 @@ button {
     font-size: calc(15px);
     line-height: 1.5rem;
     width: 50vw;
-    right: 10px;
-    bottom: 25px;
+    right: 25px;
+    bottom: 35px;
     letter-spacing: 0.15rem;
   }
 
