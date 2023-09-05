@@ -941,6 +941,8 @@ button {
 
 .contact-phone {
   padding-top: 12px;
+  flex-wrap: nowrap;
+  
 }
 
 .contact-phone-number {
@@ -950,8 +952,10 @@ button {
   font-size: calc(14px);
   letter-spacing: 0.15rem;
   gap: 2rem;
-
+  white-space: wrap;
   align-items: center;
+  
+  
 }
 
 .contact-address {
@@ -1450,8 +1454,13 @@ button {
     grid-template-columns: 1fr;
     
   }
-  
 
+  
+  
+  .options{
+    flex-direction: column;
+    gap: 2rem
+  }
   
 
   .book-event{

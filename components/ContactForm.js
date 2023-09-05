@@ -56,7 +56,7 @@ function ContactForm() {
                 height={35}
               />
             </button>
-            <span> noyce.joel@gmail.com</span>
+            <span style={{flexWrap: 'wrap'}}> noyce.joel@gmail.com</span>
           </div>
           <div className="contact-address">
             <button>
