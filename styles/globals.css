@@ -552,7 +552,7 @@ button {
 .usp-blue-image-text {
   display: flex;
   position: absolute;
-  bottom: 17vh;
+  bottom: 35vh;
   right: 9vw;
   width: 35vw;
   font-size: calc(27px);
@@ -1117,7 +1117,9 @@ button {
     font-size: calc(14px);
   }
 
-  
+  .about-wrap {
+    width: 80vw;
+  }
 
   .heading {
     font-size: calc(40px);
@@ -1149,7 +1151,7 @@ button {
   }
 
   .usp-text {
-    width: 30rem;
+    width: 65vw;
     font-size: calc(14px);
   }
 
@@ -1441,12 +1443,12 @@ button {
   }
 
   .contact-form-block{
-    width: auto
+    width: 90vw
   }
   
   .contact-user-info{
     grid-template-columns: 1fr;
-    width: auto;
+    width: 90vw;
   }
 
   .user-info-input{
