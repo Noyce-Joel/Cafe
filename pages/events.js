@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import Hero from "../components/Hero";
 import eventsHero from "../public/heros/events-hero.webp";
 import EventGallery from "../components/EventGallery";
-import About from "../components/About";
 import { copy } from "../public/copy/copy";
-import eventHome from "../public/heros/eventhome.webp";
-import { motion } from "framer-motion";
-import Image from "next/image";
 function Events() {
   return (
     <>

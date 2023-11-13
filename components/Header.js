@@ -46,17 +46,17 @@ function Header() {
               <SocialIcon
                 style={{ height: 30, width: 30 }}
                 className="hover:scale-125 transition duration-200"
-                url="https://twitter.com/ForgeBakehouse"
+                url="https://twitter.com"
               ></SocialIcon>
               <SocialIcon
                 style={{ height: 30, width: 30 }}
                 className="hover:scale-125 transition duration-200"
-                url="https://www.instagram.com/forgebakehouse"
+                url="https://www.instagram.com"
               ></SocialIcon>
               <SocialIcon
                 style={{ height: 30, width: 30 }}
                 className="hover:scale-125 transition duration-200"
-                url="https://en-gb.facebook.com/ForgeBakehouse/"
+                url="https://en-gb.facebook.com"
               ></SocialIcon>
             </div>
             <Image
