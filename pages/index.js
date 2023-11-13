@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
-import homepage from "../public/heros/homepage.webp";
+import homepage from "../public/heros/hero.webp";
 import About from "../components/About";
 import { copy } from "../public/copy/copy";
 import Usp from "../components/Usp";
 import Subscribe from '../components/Subscribe'
-import aboutForge from "../public/about/aboutForge.jpeg";
+import aboutForge from "../public/about/bakers-workbench.webp";
 export default function Home() {
   return (
     <>

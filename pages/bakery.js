@@ -1,6 +1,6 @@
 import React from "react";
-import bakeryHome from "../public/heros/bakeryhome.webp";
-import bakeryAbout from "../public/bakeryAbout.webp";
+import bakeryHome from "../public/heros/bakery-hero.webp";
+import bakeryAbout from "../public/bakery-bread.webp";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import { copy } from "../public/copy/copy";

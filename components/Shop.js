@@ -6,74 +6,74 @@ import { ShoppingBagIcon } from "@heroicons/react/24/outline";
 const breads = [
   {
     id: 1,
-    url: "/white-peak-scale.jpg",
-    name: "WHITE PEAK",
+    url: "/white.webp",
+    name: "WHITE TOP",
     description:
-      "A staple since day one. Our creamy white sourdough, made with a blend of flours including Yorkshire Organic Millers’ own stoneground.",
+      "A CLASSIC FROM THE VERY BEGINNING. INDULGE IN OUR SMOOTH WHITE SOURDOUGH, CRAFTED WITH A CAREFUL BLEND OF FLOURS",
     price: ["£2.10 / £3.40"],
   },
   {
     id: 2,
-    url: "/millstone-scale.jpg",
-    name: "MILLSTONE",
+    url: "/brown.webp",
+    name: "MILLHOUSE",
     description:
-      "A blend of white, wholemeal & rye flours give this sourdough the flavour of a wholemeal loaf with a texture closer to a white.",
+      "An artful fusion of white, wholemeal, and rye flours imparts to this sourdough a rich wholemeal flavor and airy texture ",
     price: ["£2.10 / £3.40"],
   },
   {
     id: 3,
-    url: "/light-rye-scale.jpg",
-    name: "LIGHT RYE",
+    url: "/rye.webp",
+    name: "BRIGHT RYE",
     description:
-      "The rye flour and malted grains in this little sourdough loaf add a heartier and slightly denser texture to it’s wheaty friends.",
+      "The inclusion of rye flour and malted grains in this petite sourdough loaf introduces a robust and subtly denser texture",
     price: ["£1.00 / £2.50"],
   },
   {
     id: 4,
-    url: "/baguette-petit-pain-batard.jpg",
-    name: "BAGUETTE, PETIT PAIN, BATARD",
+    url: "/baguette.webp",
+    name: "BAGUETTE, PETIT PAIN, BETARD",
     description:
-      "A long fermented, yeasted bread made with extra virgin olive oil. Soft and chewy with a light, open texture inside.",
+      "An extensively fermented yeasted bread, enriched with the essence of extra virgin olive oil. Delight in its tender and chewy character",
     price: ["£1.00 / £2.95"],
   },
   {
     id: 5,
-    url: "/ciabatta-roll.jpg",
+    url: "/ciabatta.webp",
     name: "CIABATTA ROLL",
     description:
-      "A long fermented, yeasted bread made with extra virgin olive oil. Soft and chewy with a light, open texture inside.",
+      "Savor the excellence of our meticulously fermented yeasted bread, enriched with premium extra virgin olive oil",
     price: ["£1.00 / £2.95"],
   },
   {
     id: 6,
-    url: "/dark-peak-scale.jpg",
-    name: "DARK PEAK",
+    url: "/rye-brown.webp",
+    name: "DARK LOAF",
     description:
-      "Dark, dense and intense, this non-wheat bread is the perfect for smoked salmon or for using in any Scandi-inspired dishes.",
+      "Rich, robust, and deeply flavorful, this non-wheat bread is an ideal companion for smoked salmon ",
     price: ["£2.50"],
   },
   {
     id: 7,
-    url: "/sesame-linseed-and-sunflower-scale.jpg",
-    name: "SEASAME, LINSEED & SUNFLOWER",
+    url: "/round.webp",
+    name: "SEASAME & SUNFLOWER",
     description:
-      "Our white seeded sourdough. Your best friend for any egg-based breakfast.",
+      "Introducing our white seeded sourdough, the perfect companion for your egg-based breakfasts",
     price: ["£2.95 / £4.40"],
   },
   {
     id: 8,
-    url: "/seeded-millstone-scale.jpg",
-    name: "SEEDED MILLSTONE",
+    url: "/seeded.webp",
+    name: "SEEDED LOAF",
     description:
-      "Our light brown sourdough base packed with a whole host of wholesome seeds.",
+      "Delight in our light brown sourdough base, generously filled with a medley of nourishing seeds for a wholesome and flavorful experience",
     price: ["£2.95 / £4.40"],
   },
   {
     id: 9,
-    url: "/toasted-sesame-batard-scale.jpg",
-    name: "TOASTED SESAME BATARD",
+    url: "/toasted.webp",
+    name: "TOASTED SESAME",
     description:
-      "Black and white sesame seeds fill and cover this batard. Toast it for super intense sesame flavours.",
+      "A batard generously filled and coated with black and white sesame seeds.",
     price: ["£2.95"],
   },
   //   {
@@ -94,10 +94,10 @@ const breads = [
   //   },
   {
     id: 12,
-    url: "/fig-and-walnut-scale.jpg",
-    name: "FIG & WALNUT",
+    url: "/fig-walnut.webp",
+    name: "FIG & PITSACHIO",
     description:
-      "Black and white sesame seeds fill and cover this batard. Toast it for super intense sesame flavours.",
+      "Black and white pistachio seeds fill and cover this loaf. Toast it for super intense flavours.",
     price: ["£3.40"],
   },
 ];
@@ -143,9 +143,7 @@ const words = {
   },
 };
 
-const customLoader = ({ src }) => {
-  return `https://forgebakehouse.co.uk/wp-content/uploads/2017/02${src}`;
-};
+
 
 function Shop(props) {
   const [open, setOpen] = useState();
@@ -176,7 +174,7 @@ function Shop(props) {
           >
             <Image
               loading="lazy"
-              loader={customLoader}
+              
               alt="item-image"
               height={270}
               width={270}

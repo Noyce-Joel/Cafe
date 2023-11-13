@@ -1,24 +1,22 @@
 import { motion } from "framer-motion";
-import aboutForge from "../public/about/aboutForge.jpeg";
 import React from "react";
 import Image from "next/image";
 
 function About({ h1, h2, h3, p1, p2, p3, p4, image }) {
-  return (<div>
-    <section className="about-wrap">
-      <h1 className="heading">{h1}</h1>
-      <h2 className="heading-two">{h2}</h2>
-      
-      <div className="line" />
-      
-      <div>
-        <p className="p1">{p1}</p>
-        <p className="p2">{p2}</p>
-      </div>
+  return (
+    <div>
+      <section className="about-wrap">
+        <h1 className="heading">{h1}</h1>
+        <h2 className="heading-two">{h2}</h2>
 
-      
-    </section>
-    <motion.div
+        <div className="line" />
+
+        <div>
+          <p className="p1">{p1}</p>
+          <p className="p2">{p2}</p>
+        </div>
+      </section>
+      <motion.div
         whileInView={{
           opacity: 1,
         }}
@@ -32,7 +30,7 @@ function About({ h1, h2, h3, p1, p2, p3, p4, image }) {
         viewport={{
           once: true,
         }}
-        className='about-image-wrap'
+        className="about-image-wrap"
       >
         <Image
           className="about-image"
@@ -42,7 +40,6 @@ function About({ h1, h2, h3, p1, p2, p3, p4, image }) {
           height={800}
         />
       </motion.div>
-      
     </div>
   );
 }

@@ -200,10 +200,7 @@ function Nav() {
         className="nav-wrap"
         ref={ref}
       >
-        {/* <Btn page="THE BAKERY" pageUrl={"/bakery"} svgSrc="../svgs/bread.svg" />
-        <Btn page="THE CAFE" pageUrl={"/cafe"} svgSrc="../svgs/coffee.svg" />
-        <Btn page="EVENTS" pageUrl={"/events"} svgSrc="../svgs/wine.svg" />
-        <Btn page="CONTACT" pageUrl={"/contact"} svgSrc="../svgs/at.svg" /> */}
+       
        <Btn page="THE BAKERY" pageUrl={"/bakery"} Icon={Bread} /> 
        <Btn page="THE CAFE" pageUrl={"/cafe"} Icon={Coffee} />
        <Btn page="EVENTS" pageUrl={"/events"} Icon={Wine} />

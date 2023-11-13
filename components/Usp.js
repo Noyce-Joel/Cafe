@@ -33,45 +33,44 @@ const UspImage = ({ uspImg }) => {
 
 function Usp() {
   return (
-    
     <div className="usp-wrap">
-    
-        <div className="usp-image-wrap">
-          <UspImage uspImg="/usp.webp" />
-        </div>
-        <div className="usp-orange-block"></div>
-        <motion.p
-          whileInView={{ x: 0 }}
-          initial={{ x: -100 }}
-          transition={{ type: "spring", mass: 2, stiffness: 400, damping: 100 }}
-          viewport={{once: true}}
-          
-          className="usp-orange-image-text"
-        >
-          WE MAKE THINGS SLOWLY, TO ALLOW FLAVOURS AND TEXTURES TO DEVELOP IN
-          OUR BREAD.
-        </motion.p>
-      
-      
+      <div className="usp-image-wrap">
+        <UspImage uspImg="/french-toast.webp" />
+      </div>
+      <div className="usp-orange-block"></div>
+      <motion.p
+        whileInView={{ x: 0 }}
+        initial={{ x: -100 }}
+        transition={{ type: "spring", mass: 2, stiffness: 400, damping: 100 }}
+        viewport={{ once: true }}
+        className="usp-orange-image-text"
+      >
+        WE CRAFT OUR PRODUCTS DELIBERATELY, PROVIDING AMPLE TIME FOR FLAVORS AND
+        TEXTURES TO UNFOLD IN OUR BREAD.
+      </motion.p>
+
       <p className="usp-text">
         {" "}
-        Freshly baked bread is a universal pleasure that we love to share. Our
-        bread classes will teach you how to bring the bakery into your kitchen,
-        learning to bake different breads and pasteries with our founder Martha.
+        Indulging in freshly baked bread is a joy universally appreciated, and
+        we delight in sharing this pleasure. Join our bread classes, where our
+        founder Bready Bread will guide you in bringing the essence of the bakery into
+        your kitchen.
       </p>
-      
+
       <div className="usp-image-wrap2">
-        <UspImage uspImg="/usp2.webp" />
+        <UspImage uspImg="/almond-croissants.webp" />
       </div>
       <div className="usp-blue-block"></div>
       <motion.p
-          whileInView={{ x: 0 }}
-          initial={{ x: 100 }}
-          transition={{ type: "spring", mass: 2, stiffness: 400, damping: 100 }} 
-          viewport={{once: true}} className="usp-blue-image-text">
-        WE TAKE OUR TIME, WORKING WITH GOOD INGREDIENTS. THIS IS LOCAL, MADE FOR
+        whileInView={{ x: 0 }}
+        initial={{ x: 100 }}
+        transition={{ type: "spring", mass: 2, stiffness: 400, damping: 100 }}
+        viewport={{ once: true }}
+        className="usp-blue-image-text"
+      >
+        WE ARE PATIENT, WORKING WITH GREAT INGREDIENTS. LOCAL PRODUCTS, MADE FOR
         YOU, BY US.
-        </motion.p>
+      </motion.p>
     </div>
   );
 }

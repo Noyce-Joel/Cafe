@@ -55,12 +55,12 @@ function BakeryGallery() {
         className="gallery-wrap"
       >
         <div className="gallery">
-          <Photo image="/BakerImg.webp" />
-          <Photo image="/BakerImg2.webp" />
-          <Photo image="/BakerImg3.webp" />
-          <Photo image="/BakerImg4.webp" />
-          <Photo image="/BakerImg5.webp" />
-          <Photo image="/BakerImg6.webp" />
+          <Photo image="/bakeryimg1.webp" />
+          <Photo image="/bakeryimg2.webp" />
+          <Photo image="/bakeryimg3.webp" />
+          <Photo image="/bakeryimg4.webp" />
+          <Photo image="/bakeryimg5.webp" />
+          <Photo image="/bakeryimg6.webp" />
         </div>
       </motion.div>
     

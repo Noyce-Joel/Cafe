@@ -101,7 +101,7 @@ function Subscribe() {
         >
           <Image
             className="newsletter-image"
-            src="/newsletter-image.webp"
+            src="/sub-bread.webp"
             height={340}
             width={340}
             alt="newsletter image"

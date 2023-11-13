@@ -3,25 +3,13 @@
 @tailwind utilities;
 
 body {
-  display: flex;
-  margin: 0;
-  padding: 0;
+  
   overflow-x: hidden;
   font-family: "Duru sans", serif;
   scroll-behavior: smooth;
 }
 
-.loading {
-  display: flex;
 
-  width: 100vw;
-  height: 100vh;
-  background: #024252;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 
 .layout {
   justify-content: center;
@@ -131,6 +119,7 @@ body {
   z-index: -10;
   margin-top: -70px;
   margin-bottom: 20px;
+  
 }
 .title {
   display: flex;
@@ -142,7 +131,7 @@ body {
   left: 7px;
   letter-spacing: 20px;
   font-weight: 700;
-  font-size: calc(65px);
+  font-size: calc(60px);
 }
 .circles-wrap {
   display: flex;
@@ -160,6 +149,7 @@ body {
   font-size: calc(55px);
   overflow: hidden;
   border-radius: 40px;
+  height: 19vh
 }
 
 .circles {
@@ -225,7 +215,7 @@ body {
 .nav-wrap {
   display: flex;
   box-sizing: border-box;
-
+  
   position: sticky;
   bottom: 0;
   top: 0;
@@ -806,7 +796,7 @@ button {
   margin-left: 20px;
   letter-spacing: 0.2rem;
   border: solid;
-  padding: 10px;
+  padding: 7px;
   background: #024252;
   border-radius: 10px;
   font-size: calc(10px);
@@ -1383,6 +1373,7 @@ button {
   }
   .circles-wrap {
     border-radius: 0px;
+    height: 14vh
   }
 
   .phone {

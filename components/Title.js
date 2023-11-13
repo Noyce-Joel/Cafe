@@ -19,7 +19,7 @@ function Title() {
   };
   
   const letterAni = {
-    initial: { y: 400 },
+    initial: { y: 200 },
     animate: {
       y: 0,
       transition: {
@@ -30,13 +30,13 @@ function Title() {
     },
   };
   return (
-    <motion.div className="title-wrap">
+    
       <motion.div variants={banner} initial='initial' animate='animate' className="circles-wrap">
         <Link href='/'>
         <motion.div className="title">
           {[...title].map((letter, index) => (
             <motion.span key={index} variants={letterAni}>
-              <p>{letter}</p>
+              <p >{letter}</p>
             </motion.span>
           ))}
         </motion.div>
@@ -51,7 +51,7 @@ function Title() {
           
           transition={{
             type: "spring",
-            stiffness: 20,
+            stiffness: 20, 
             mass: 1.5,
             delay: 0.4,
           }}
@@ -63,7 +63,7 @@ function Title() {
           <div className="circle-3" />
         </motion.div>
       </motion.div>
-    </motion.div>
+   
   );
 }
 

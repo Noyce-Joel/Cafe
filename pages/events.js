@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Hero from "../components/Hero";
-import eventsHero from "../public/heros/events.webp";
+import eventsHero from "../public/heros/events-hero.webp";
 import EventGallery from "../components/EventGallery";
 import About from "../components/About";
 import { copy } from "../public/copy/copy";

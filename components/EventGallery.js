@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
-import CurryNightImg from "../public/events/CurryNightImg.webp";
-import MoulesFritesImg from "../public/events/MoulesFritesImg.webp";
-import DumplingsImg from "../public/events/DumplingsImg.webp";
-import JamaicanImg from "../public/events/JamaicanImg.webp";
-import ItalianImg from "../public/events/ItalianImg.webp";
+import CurryNightImg from "../public/events/indian.webp";
+import MoulesFritesImg from "../public/events/french.webp";
+
+import JamaicanImg from "../public/events/jamaican.webp";
+import ItalianImg from "../public/events/italian.webp";
 import About from "../components/About";
 import { copy } from "../public/copy/copy";
-import aboutForge from "../public/about/aboutForge.jpeg";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,17 +30,9 @@ const eventsElements = [
     description:
       "Our Head Chef Flo is treating is all to a moules frites night, we could not be more excited about it!",
   },
+ 
   {
     id: 3,
-    image: DumplingsImg,
-    name: "DUMPLINGS NIGHT",
-    date: "23/06/23",
-    time: "6.00pm - 10.30pm",
-    description:
-      "A first for us, it’s dumpling night baby! The ultimate tapas style menu filled with gorgeous hand made dumplings.",
-  },
-  {
-    id: 4,
     image: JamaicanImg,
     name: "JAMAICAN NIGHT",
     date: "10/07/23",
@@ -49,7 +41,7 @@ const eventsElements = [
       "A trip to the Caribbean! Expect big bold flavours and comforting dishes!",
   },
   {
-    id: 5,
+    id: 4,
     image: ItalianImg,
     name: "ITALIAN NIGHT",
     date: "15/08/23",

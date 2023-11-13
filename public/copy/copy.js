@@ -2,52 +2,47 @@ export const copy = {
   pages: [
     {
       homepage: [
-        { h1: "WELCOME TO FORGE" },
+        { h1: "WELCOME TO BAKEHOUSE" },
         {
-          h2: "SINCE NOVEMBER 2012, WE’VE BEEN PASSIONATELY BAKING FOR THE COMMUNITY OF SHEFFIELD AND BEYOND.",
+          h2: "SINCE NOVEMBER 2010, WE’VE BEEN PASSIONATELY BAKING FOR THE COMMUNITY OF BREADSVILLE AND BEYOND.",
         },
         {
-          p1: "Our team of dedicated bakers, skilled chefs, and expert baristas take immense pride in creating everything from scratch – ensuring full control over the quality and ingredients used. You won't find any improvers or additives in our products.",
+          p1: "Our committed team of bakers, accomplished chefs, and skilled baristas takes great pride in crafting everything from scratch, maintaining complete control over the quality and selection of ingredients. Our products are free from enhancers or additives, reflecting our unwavering commitment to purity and excellence.",
         },
         {
-          p2: "From our humble beginnings as a small bakery to expanding into larger premises and finally opening our own cafe, our journey has been one of continuous growth and learning. With increasing demand, we have risen to the occasion, filling our shelves every day with an exquisite selection of bread and pastries, all lovingly made in-house.",
+          p2: "Starting as a modest bakery and progressing to larger facilities before establishing our own cafe, our evolution has been marked by consistent growth and ongoing education. Responding to growing demand, we've met the challenge by stocking our shelves daily with a delightful array of bread and pastries, all crafted with care within our premises.",
         },
       ],
       bakery: [
-        { h1: "THE BAKERY" },
+        { h1: "BAKERY" },
         {
-          h2: "TIME IS THE KEY TO GREAT BREAD IN OUR BOOK, ALLOWING FLAVOURS AND TEXTURES TO DEVELOP NATURALLY.",
+          h2: "PATIENCE IS THE KEY TO GREAT BREAD IN OUR BOOK, ALLOWING FLAVOURS AND TEXTURES TO DEVELOP NATURALLY.",
         },
         {
-          p1: "All of our sourdoughs and yeasted bread and pastries are long fermented over multiple days. We believe bread should be honest, simple and satisfying.",
+          p1: "Every sourdough, yeasted bread, and pastry in our collection undergoes a patient, multi-day fermentation process. At our core philosophy, we champion the belief that bread should embody honesty, simplicity, and undeniable satisfaction.",
         },
         {
-          p2: "Our bread menu changes throughout the week, and the seasons, but we have some old faithfuls that fill our shelves each day. Our daily breads include White Peak, Millstone, Seeded Millstone, Sesame Linseed & Sunflower, Dark Peak, Baguette / Batard, Ciabatta, Light Rye, Light Rye and Caraway.",
+          p2: "Our bread menu gracefully transforms with the passing week and shifting seasons, featuring timeless classics that adorn our shelves day after day. Immerse yourself in the allure of our daily artisanal offerings: Ivory Symphony, Heritage Harvest, Golden Harvest, Sunlit Serenity, Midnight Velvet, Artisan Baguette, Rustic Ciabatta, Delicate Rye, Silken Rye with Caraway.",
         },
         {
           p3: "AS WITH OUR BREAD, WE STRIVE TO MAKE OUR PASTRY SELECTION INNOVATIVE, SEASONAL AND INVITING.",
         },
         {
-          p4: "Looking for baked goods for a special event? We provide pastries and bread for weddings, corporate events, markets and meetings. Get in touch by emailing info@forgebakehouse.co.uk and we’ll see what we can do.",
+          p4: "In search of exquisite baked goods for your special occasion? Look no further! We offer a delectable array of pastries and artisanal bread tailored for weddings, corporate events, markets, and meetings.",
         },
       ],
       cafe: [
-        { h1: "THE CAFE" },
+        { h1: "CAFE" },
         {
           h2: "JOIN US FOR BRUNCH, A BREAKFAST PASTRY, LIGHT LUNCH OR AFTERNOON TREAT.",
         },
         {
-          p1: "Our downstairs conservatory cafe space is open from 9am to 4pm, offering a delightful selection of options throughout the day. For brunch and lunch from the kitchen, you can join us anytime between 9am and 3pm. If you’re stopping by between 3pm and 4pm, our kitchen will be closed, but our bakery counter remains open, so you can still enjoy a variety of offerings, including coffee, pastries, and savoury treats from the counter until stocks last. ",
+          p1: "Step into our welcoming downstairs conservatory cafe, open daily from 9 am to 4 pm, presenting a delightful array of choices throughout the day. Indulge in brunch and lunch from our kitchen between 9 am and 3 pm. While our kitchen takes a pause from 3 pm to 4 pm, fear not! Our bakery counter remains open, ensuring you can still relish an assortment of offerings, from coffee and pastries to savory treats, until stocks last.",
         },
         {
-          p2: "During the summer months, when most of you prefer to sit outside, we are letting our upstairs cafe have a rest during the week.  At the weekend it is open as usual and you can pre-book your table.",
+          p2: "Embracing the summer allure and recognizing your preference for outdoor seating, our upstairs cafe takes a midweek break during the sunny months. However, fear not! Come the weekend, it resumes its regular operations",
         },
-        {
-          p3: "The bakery counter is laden with bread, pastries, sandwiches, sausage rolls, savoury tarts and scotch eggs each day and is open between 8am – 4pm on weekdays and 9am – 4pm on weekends.",
-        },
-        {
-          p4: "Looking for baked goods for a special event? We provide pastries and bread for weddings, corporate events, markets and meetings. Get in touch by emailing info@forgebakehouse.co.uk and we’ll see what we can do.",
-        },
+      
       ],
       events: [
         { h1: "EVENTS" },
