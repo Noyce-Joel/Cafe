@@ -31,7 +31,7 @@ function ContactForm() {
         <div className="contact-form-block">
           <h1>CONTACT INFORMATION</h1>
           <h2>
-            This is a fun project inspired by the cafe where I currently work.
+            This is a fun project built with NextJS.
             If you like the website and have any enquiries please reach out!
           </h2>
           <div className="contact-phone-number">
