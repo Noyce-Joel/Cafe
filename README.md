@@ -7,7 +7,7 @@ I used the utility-first CSS styling approach of TailwindCSS to create the UI, a
 
 On the contact page, I created a form that allows users to send emails from within the app. For this I used Axios and the SendGrid API. I also wanted to integrate with the Google Maps API, something I think is important for small businesses that sell in store. I also added the functionality to phone the business with the click of a button.
 
-You can view the site here: https://cafeidea.vercel.app
+You can view the site here: https://cafeidea.vercel.app/bakery
 
 
 
