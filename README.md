@@ -9,6 +9,8 @@ On the contact page, I created a form that allows users to send emails from with
 
 You can view the site here: https://cafeidea.vercel.app/bakery
 
+![Page image](/public/page.jpeg)
+
 
 
 
